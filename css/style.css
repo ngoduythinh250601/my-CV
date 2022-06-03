@@ -1,0 +1,94 @@
+body {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: #333;
+    font-style: normal;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+a:link {
+    color: #333;
+}
+
+a:visited {
+    color: #333;
+}
+
+a:hover {
+    color: cadetblue;
+}
+
+a:active {
+    color: mediumspringgreen;
+}
+
+.mainbody {
+    background-color: gainsboro;
+    height: 100%;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    width: 100%;
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: gainsboro;
+    text-align: center;
+    padding: 1em;
+    text-decoration: none;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: gainsboro;
+    color: #333;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+
+.main {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: auto;
+    text-align: center;
+    padding: 1em;
+}
+
+.avatar {
+    margin: 1em;
+    width: 256px;
+    height: auto;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.fullname {
+    margin: 0%;
+    color: black;
+    font-size: x-large;
+    font-weight: normal;
+    font-size: 40px;
+}
+
+.icon-display {
+    display: inline-block;
+}
+
+.copyright {
+    margin-top: 3em;
+    color: cadetblue;
+    font-size: 80%;
+}
