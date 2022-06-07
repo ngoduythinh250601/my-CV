@@ -27,7 +27,8 @@ a:active {
 
 .mainbody {
     background-color: gainsboro;
-    height: 100%;
+    height: fit-content;
+    min-height: 100vh;
 }
 
 /* Add a black background color to the top navigation */
